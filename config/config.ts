@@ -169,4 +169,5 @@ export default defineConfig({
   mako: {},
   esbuildMinifyIIFE: true,
   requestRecord: {},
+  base: "/Front-Studio",
 });

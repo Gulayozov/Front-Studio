@@ -1,5 +1,6 @@
 {
   "name": "ant-design-pro",
+  "homepage": "https://Gulayozov.github.io/Front-Studio",
   "version": "6.0.0",
   "private": true,
   "description": "An out-of-box UI solution for enterprise applications",
@@ -32,7 +33,9 @@
     "test": "jest",
     "test:coverage": "npm run jest -- --coverage",
     "test:update": "npm run jest -- -u",
-    "tsc": "tsc --noEmit"
+    "tsc": "tsc --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": [
     "defaults"
@@ -74,7 +77,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.57.1",
     "express": "^4.21.1",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.3.0",
     "husky": "^9.1.6",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
